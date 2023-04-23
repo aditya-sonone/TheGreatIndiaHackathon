@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+html{
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: whitesmoke;
+    padding: 1rem 5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    background: black;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    /* background: linear-gradient(to bottom, #ff9966 0%, #66ff66 100%); */
+    /* border: 5px solid black; */
+    border-radius: 0 10px ;
+    color: yellowgreen;
+    /* text-decoration: underline; */
+    font-family: 'Orbitron', sans-serif;
+}
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+}
+#search{
+    background: none;
+    padding: 5px 20px;
+    color: rgb(252, 252, 252);
+    outline: none;
+    background: rgb(49, 48, 48);
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.weather{
+    text-align: center;
+    color: aliceblue;
+}
+#city{
+    font-size: 30px;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: black;
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+#clouds{
+    font-size: 24px;
+    /* background: rgba(153, 205, 50, 0.778); */
+    padding: 2px 20px;
+    font-weight: 500;
+    color: greenyellow;
+    /* border-radius: 15px; */
+}
+main{
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+    margin: 0 50px;
+    color: white;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p,.next h3{
+    margin: 3px 0;
+}
+.forecstD{
+    margin: 20px 50px;
+    color: aliceblue;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cast-header{
+    color: aliceblue;
+    /* background: ; */
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.divider1,.divider2{
+    background: aqua;
+    height: 200px;
+    border-radius: 5px;
+}
+.divider2{
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+.time,.date{
+    color:orange;
+}
+.desc{
+    color: rgb(196, 255, 77);
+}
